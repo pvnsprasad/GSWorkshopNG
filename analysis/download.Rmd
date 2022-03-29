@@ -17,6 +17,8 @@ editor_options:
 ```{r Example of requesting data from R}
 data (iris)
 head (iris)
+
+
 colMeans(iris[,-5])
 ```
 

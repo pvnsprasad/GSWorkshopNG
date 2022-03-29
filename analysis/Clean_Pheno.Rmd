@@ -1,0 +1,23 @@
+---
+title: "Clean_Pheno"
+author: "pvnsprasad"
+date: "2022-03-29"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: inline
+---
+
+## Introduction
+
+```{r}
+library(tidyverse);
+library(genomicMateSelectR)
+
+
+```
+## Reab DB Data
+```{r}
+dbdata<-readDBdata(phenotypeFile = here::here("data","phenotype.csv"),
+                   metadataFile = here::here("data","metadata.csv"))
+```
+
