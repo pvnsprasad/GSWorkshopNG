@@ -8,7 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-This is a repository with the objective of learning Genomic Selection with Marnin Wolfe
+This is a repository with the objective of learning Genomic Selection with [Marnin Wolfe](marnin  Wolfe)
 
 # First Header
 
